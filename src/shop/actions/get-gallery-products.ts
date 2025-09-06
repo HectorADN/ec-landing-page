@@ -4,7 +4,7 @@ import type { ProductsGalleryResponse } from "@/interfaces/products-gallery-resp
 
 export const getGalleryProductsAction = async():Promise<ProductsGalleryResponse> => {
 
-    const { data } = await ecApi.get<ProductsGalleryResponse>('/productosgallery');
+    const { data } = await ecApi.get<ProductsGalleryResponse>('/home-web/productosgallery');
 
     const productsWithImageUrls = data.data.map(product => ({
         ...product,

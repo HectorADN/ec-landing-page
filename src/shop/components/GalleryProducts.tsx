@@ -15,7 +15,7 @@ export const GalleryProducts = () => {
 
         { 
             data?.data.map(p => (
-                <div>
+                <div key={p.id}>
                     <img 
                         className="h-auto max-w-full rounded-lg" 
                         src={p.default_imagen} alt="" />
