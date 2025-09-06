@@ -8,7 +8,7 @@ git remote add origin https://github.com/HectorADN/ec-landing-page.git
 git pull https://github.com/HectorADN/ec-landing-page.git
 
 git add .
-git commit -m "first commit"
+git commit -m "Home-page-01"
 git branch -M main
 git push -u origin main
 

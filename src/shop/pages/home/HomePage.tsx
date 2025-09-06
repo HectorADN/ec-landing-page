@@ -1,14 +1,17 @@
 
-import { products } from "@/mocks/products.mock"
 import { CustomJumbotron } from "@/shop/components/CustomJumbotron"
-import { ProductsGrid } from "@/shop/components/ProductsGrid"
+import { GalleryProducts } from "@/shop/components/GalleryProducts"
+
+import { Welcome } from "@/shop/components/Welcome"
 
 export const HomePage = () => {
   return (
     <>
+      <Welcome />
       <CustomJumbotron title="Nuestros productos" subTitle="Algunos de nuestros productos se muestran a continuación." />
-    
-      <ProductsGrid products={products} />
+      
+      <GalleryProducts />
+      {/* <ProductsGrid products={products} /> */}
     </>
   )
 }

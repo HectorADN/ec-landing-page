@@ -4,7 +4,7 @@ import { CustomFooter } from "../components/CustomFooter"
 
 export const ShopLayout = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen">
       <CustomHeader />
       
       <Outlet />

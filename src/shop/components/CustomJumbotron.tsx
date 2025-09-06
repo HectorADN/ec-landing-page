@@ -10,9 +10,9 @@ export const CustomJumbotron = ({ title, subTitle }: Props) => {
         'Todos los productos olivícolas mas representativos del Valle de Azapa, a tu alcance.';
   
     return (
-      <section className="py-10 px-4 lg:px-8 bg-muted/30">
+      <section className="py-10 px-4 lg:px-8 bg-black text-white">
         <div className="container mx-auto text-center">
-          <h1 className="font-montserrat text-2xl lg:text-5xl tracking-tight mb-6">
+          <h1 className="font-montserrat text-2xl lg:text-5xl tracking-tight mb-6 p-5">
             { title }
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
