@@ -1,20 +1,20 @@
 import type { Imagenes } from "./imagenes.interface";
 
-export interface ProductsGalleryResponse {
+export interface ProductsByCategoryResponse {
     message: string;
     status:  number;
     error:   boolean;
-    data:    GalleryProduct[];
+    data:    ProductByCategory[];
 }
 
-export interface GalleryProduct {
+export interface ProductByCategory {
     id:             number;
     nombre:         string;
     unidad:         string;
     tipo:           string;
-    stock_minimo:   number;
-    disponible:     boolean;
+    stock_minimo:   string;
+    disponible:     number;
     temporada:      string;
     default_imagen: string;
-    imagenes:       Imagenes[];
+    imagenes?:       Imagenes[];
 }
