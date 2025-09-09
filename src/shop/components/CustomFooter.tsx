@@ -5,16 +5,19 @@ export const CustomFooter = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="font-semibold mb-4">TESLA STYLE</h3>
+              <h3 className="font-semibold mb-4 text-gray-300">Horario</h3>
               <p className="text-sm text-muted-foreground">
-                Ropa inspirada en el diseño minimalista y la innovación de Tesla.
+                Martes, Jueves y Sábados <br /> de 07:30 hrs a 15:00 hrs.
+              </p><br />
+              <p className="text-sm text-muted-foreground">
+                Miércoles, Viernes y Domingos <br /> de 08:30 hrs a 15:00 hrs.
               </p>
             </div>
-            
+
             <div>
-              <h4 className="font-medium mb-4">Productos</h4>
+              <h4 className="font-medium mb-4 text-gray-300">Productos</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-foreground">Camisetas</a></li>
+                <li>Camisetas</li>
                 <li><a href="#" className="hover:text-foreground">Sudaderas</a></li>
                 <li><a href="#" className="hover:text-foreground">Chaquetas</a></li>
                 <li><a href="#" className="hover:text-foreground">Accesorios</a></li>

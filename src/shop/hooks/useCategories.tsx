@@ -5,6 +5,8 @@ export const useCategories = () => {
 
     const [ category, setCategory ] = useState('Encurtidos');
 
+
+
     const onChangeCategory = (theCategory: string) => {
         setCategory(theCategory);
     }
@@ -14,7 +16,7 @@ export const useCategories = () => {
     }, [category]);
 
     const searchProducts = (categoria: string) => {
-        console.log(`Buscando por categoria: ${categoria}`);
+        console.log(`Buscando por categoria: ---> ${categoria}`);
     }
 
     return {
