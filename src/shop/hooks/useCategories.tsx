@@ -3,9 +3,7 @@ import { useEffect, useState } from "react";
 
 export const useCategories = () => {
 
-    const [ category, setCategory ] = useState('Encurtidos');
-
-
+    const [ category, setCategory ] = useState('Aceitunas');
 
     const onChangeCategory = (theCategory: string) => {
         setCategory(theCategory);

@@ -5,6 +5,6 @@ export const getProductsByCategoryAction = async(categoria: string): Promise<Pro
 
         const { data } = await ecApi.get<ProductsByCategoryResponse>(`/productosportipo/${categoria}`);
 
-        console.log(data);
+        // console.log(data);
     return data;
 }

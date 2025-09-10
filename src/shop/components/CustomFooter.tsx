@@ -3,6 +3,11 @@ export const CustomFooter = () => {
   return (
     <footer className="border-t py-12 px-4 lg:px-8 mt-16">
         <div className="container mx-auto">
+          <div className="flex items-center justify-center pb-20">
+            <img src="/public/img/logo-ec.png"
+                className="h-[80px] rounded-full shadow-blue-100 shadow"
+                alt="EC-Comercial" />
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <h3 className="font-semibold mb-4 text-gray-300">Horario</h3>
@@ -15,34 +20,14 @@ export const CustomFooter = () => {
             </div>
 
             <div>
-              <h4 className="font-medium mb-4 text-gray-300">Productos</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>Camisetas</li>
-                <li><a href="#" className="hover:text-foreground">Sudaderas</a></li>
-                <li><a href="#" className="hover:text-foreground">Chaquetas</a></li>
-                <li><a href="#" className="hover:text-foreground">Accesorios</a></li>
-              </ul>
+              <h4 className="font-medium mb-4 text-gray-300">Dirección</h4>
+              <p className="text-sm text-muted-foreground">
+                Terminal Agropecuario <br /> Local - 16 <br />
+                Av. Grau 1158 <br /> Calama
+              </p>
             </div>
             
-            <div>
-              <h4 className="font-medium mb-4">Ayuda</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-foreground">Contacto</a></li>
-                <li><a href="#" className="hover:text-foreground">Envíos</a></li>
-                <li><a href="#" className="hover:text-foreground">Devoluciones</a></li>
-                <li><a href="#" className="hover:text-foreground">Guía de Tallas</a></li>
-              </ul>
-            </div>
             
-            <div>
-              <h4 className="font-medium mb-4">Empresa</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-foreground">Sobre Nosotros</a></li>
-                <li><a href="#" className="hover:text-foreground">Sustentabilidad</a></li>
-                <li><a href="#" className="hover:text-foreground">Carreras</a></li>
-                <li><a href="#" className="hover:text-foreground">Prensa</a></li>
-              </ul>
-            </div>
           </div>
           
           <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
