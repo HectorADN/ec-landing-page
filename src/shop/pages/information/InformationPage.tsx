@@ -1,8 +1,8 @@
 
 export const InformationPage = () => {
   return (
-    <div className="p-4">
-      <div className="text-gray-200 bg-purple-200/20 rounded-2xl p-4 shadow-2xl">
+    <div className="p-4 text-gray-800 m-4 max-w-2xl flex flex-col items-center justify-center">
+      <div className="bg-gray-300 rounded-2xl p-4 shadow-2xl">
 
         <h2 className="text-2xl text-center pb-4">Sobre las aceitunas</h2>
 
@@ -15,6 +15,13 @@ export const InformationPage = () => {
         <p>Aunque son ricas en sodio debido al proceso de conservación en salmuera, no engordan si se consumen con moderación; se recomienda un consumo diario de entre cinco y diez aceitunas negras.</p>
 
       </div>
+
+
+      <details className="p-4 m-4 bg-gray-300">
+        <summary>Diferencias entre aceitunas</summary>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+      </details>
+
     </div>
   )
 }
